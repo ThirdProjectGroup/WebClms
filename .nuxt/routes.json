@@ -1,0 +1,79 @@
+[
+  {
+    "name": "course",
+    "path": "/course",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\course\\\\index.vue",
+    "chunkName": "pages/course/index",
+    "_name": "_2154aa29"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_88b69c8a"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_00f7c941"
+  },
+  {
+    "name": "teacher",
+    "path": "/teacher",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\teacher\\\\index.vue",
+    "chunkName": "pages/teacher/index",
+    "_name": "_72248ece"
+  },
+  {
+    "name": "answer_question-anq",
+    "path": "/answer_question/anq",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\answer_question\\\\anq.vue",
+    "chunkName": "pages/answer_question/anq",
+    "_name": "_4907341b"
+  },
+  {
+    "name": "course-id",
+    "path": "/course/:id",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\course\\\\_id.vue",
+    "chunkName": "pages/course/_id",
+    "_name": "_172922d1"
+  },
+  {
+    "name": "orders-oid",
+    "path": "/orders/:oid?",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\orders\\\\_oid.vue",
+    "chunkName": "pages/orders/_oid",
+    "_name": "_90cfb664"
+  },
+  {
+    "name": "pay-pid",
+    "path": "/pay/:pid?",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\pay\\\\_pid.vue",
+    "chunkName": "pages/pay/_pid",
+    "_name": "_d75dd274"
+  },
+  {
+    "name": "player-vid",
+    "path": "/player/:vid?",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\player\\\\_vid.vue",
+    "chunkName": "pages/player/_vid",
+    "_name": "_17eb9ede"
+  },
+  {
+    "name": "teacher-id",
+    "path": "/teacher/:id",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\teacher\\\\_id.vue",
+    "chunkName": "pages/teacher/_id",
+    "_name": "_1383ecb6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1c05e2b8"
+  }
+]
