@@ -22,7 +22,7 @@
             <router-link to="/article" tag="li" active-class="current">
               <a>文章</a>
             </router-link>
-            <router-link to="/qa" tag="li" active-class="current">
+            <router-link to="/aq" tag="li" active-class="current">
               <a>问答</a>
             </router-link>
           </ul>
@@ -155,7 +155,7 @@ export default {
         username: '',
         password: '',
         nickname: ''
-    
+
         // sex: ''
       }
     }
@@ -169,7 +169,7 @@ export default {
        this.showInfo()
     }
 
-   
+
   },
   methods:{
     //微信登录显示的方法
