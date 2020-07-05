@@ -2,78 +2,103 @@
   {
     "name": "course",
     "path": "/course",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\course\\\\index.vue",
-    "chunkName": "pages/course/index",
-    "_name": "_2154aa29"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\course\\\\index.vue",
+    "chunkName": "pages/course/index"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_88b69c8a"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\register.vue",
-    "chunkName": "pages/register",
-    "_name": "_00f7c941"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
   },
   {
     "name": "teacher",
     "path": "/teacher",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\teacher\\\\index.vue",
-    "chunkName": "pages/teacher/index",
-    "_name": "_72248ece"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\teacher\\\\index.vue",
+    "chunkName": "pages/teacher/index"
   },
   {
-    "name": "answer_question-anq",
-    "path": "/answer_question/anq",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\answer_question\\\\anq.vue",
-    "chunkName": "pages/answer_question/anq",
-    "_name": "_4907341b"
+    "name": "answer_question-answer-add",
+    "path": "/answer_question/answer-add",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\answer_question\\\\answer-add.vue",
+    "chunkName": "pages/answer_question/answer-add"
+  },
+  {
+    "name": "answer_question-aq",
+    "path": "/answer_question/aq",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\answer_question\\\\aq.vue",
+    "chunkName": "pages/answer_question/aq"
+  },
+  {
+    "name": "answer_question-question-info",
+    "path": "/answer_question/question-info",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\answer_question\\\\question-info.vue",
+    "chunkName": "pages/answer_question/question-info"
+  },
+  {
+    "name": "answer_question-question-list",
+    "path": "/answer_question/question-list",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\answer_question\\\\question-list.vue",
+    "chunkName": "pages/answer_question/question-list"
+  },
+  {
+    "name": "answer_question-question-write",
+    "path": "/answer_question/question-write",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\answer_question\\\\question-write.vue",
+    "chunkName": "pages/answer_question/question-write"
+  },
+  {
+    "name": "article-create",
+    "path": "/article/create",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\article\\\\create.vue",
+    "chunkName": "pages/article/create"
+  },
+  {
+    "name": "article-List",
+    "path": "/article/List",
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\article\\\\List.vue",
+    "chunkName": "pages/article/List"
   },
   {
     "name": "course-id",
     "path": "/course/:id",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\course\\\\_id.vue",
-    "chunkName": "pages/course/_id",
-    "_name": "_172922d1"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\course\\\\_id.vue",
+    "chunkName": "pages/course/_id"
   },
   {
     "name": "orders-oid",
     "path": "/orders/:oid?",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\orders\\\\_oid.vue",
-    "chunkName": "pages/orders/_oid",
-    "_name": "_90cfb664"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\orders\\\\_oid.vue",
+    "chunkName": "pages/orders/_oid"
   },
   {
     "name": "pay-pid",
     "path": "/pay/:pid?",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\pay\\\\_pid.vue",
-    "chunkName": "pages/pay/_pid",
-    "_name": "_d75dd274"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\pay\\\\_pid.vue",
+    "chunkName": "pages/pay/_pid"
   },
   {
     "name": "player-vid",
     "path": "/player/:vid?",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\player\\\\_vid.vue",
-    "chunkName": "pages/player/_vid",
-    "_name": "_17eb9ede"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\player\\\\_vid.vue",
+    "chunkName": "pages/player/_vid"
   },
   {
     "name": "teacher-id",
     "path": "/teacher/:id",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\teacher\\\\_id.vue",
-    "chunkName": "pages/teacher/_id",
-    "_name": "_1383ecb6"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\teacher\\\\_id.vue",
+    "chunkName": "pages/teacher/_id"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\卓越项目\\\\班务管理系统\\\\vue-front-1010\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_1c05e2b8"
+    "component": "W:\\\\文件\\\\第三项目组\\\\code\\\\WebClms\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

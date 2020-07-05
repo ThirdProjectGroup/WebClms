@@ -19,10 +19,10 @@
             <router-link to="/teacher" tag="li" active-class="current">
               <a>名师</a>
             </router-link>
-            <router-link to="/article" tag="li" active-class="current">
+            <router-link to="/article/List" tag="li" active-class="current">
               <a>文章</a>
             </router-link>
-            <router-link to="/aq" tag="li" active-class="current">
+            <router-link to="/answer_question/aq" tag="li" active-class="current">
               <a>问答</a>
             </router-link>
           </ul>

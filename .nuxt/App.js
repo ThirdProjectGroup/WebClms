@@ -5,7 +5,7 @@ import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch,
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\_swiper@4.5.1@swiper\\dist\\css\\swiper.css'
+import '..\\node_modules\\_element-ui@2.13.2@element-ui\\lib\\theme-chalk\\index.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
 import _2d297eb3 from '..\\layouts\\sign.vue'
@@ -22,8 +22,7 @@ export default {
       domProps: {
         id: '__layout'
       },
-
-          key: this.layoutName
+      key: this.layoutName
     }, [layoutEl])
 
     const transitionEl = h('transition', {

@@ -20,6 +20,7 @@ module.exports = {
   css: [
     'swiper/dist/css/swiper.css'
   ],
+ 
   /*
   ** Customize the progress bar color
   */
@@ -28,6 +29,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+
     /*
     ** Run ESLint on save
     */
@@ -41,6 +43,17 @@ module.exports = {
         })
       }
     }
+  },
+  css: [
+    'element-ui/lib/theme-chalk/index.css'
+  ],
+  plugins: [
+    // ssr: Boolean (默认为 true) 如果值为 false，该文件只会在客户端被打包引入
+    { src: '@/plugins/element-ui.js', ssr: true }
+  ],
+  build: {
+    // 添加模块，配置只打包一次，减少应用bundle的体积
+    vendor: ['element-ui']
   }
 }
 

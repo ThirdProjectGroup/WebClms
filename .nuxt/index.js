@@ -11,8 +11,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_7234c5c6 from 'nuxt_plugin_plugin_7234c5c6' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_nuxtswiperplugin_622602ba from 'nuxt_plugin_nuxtswiperplugin_622602ba' // Source: ..\\plugins\\nuxt-swiper-plugin.js (mode: 'client')
+import nuxt_plugin_elementui_7aa6cf5e from 'nuxt_plugin_elementui_7aa6cf5e' // Source: ..\\plugins\\element-ui.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -143,7 +142,7 @@ async function createApp(ssrContext, config = {}) {
     Vue[installKey] = true
     // Call Vue.use() to install the plugin into vm
     Vue.use(() => {
-      if (!Object.prototype.hasOwnProperty.call(Vue, key)) {
+      if (!Object.prototype.hasOwnProperty.call(Vue.prototype, key)) {
         Object.defineProperty(Vue.prototype, key, {
           get () {
             return this.$root.$options[key]
@@ -165,12 +164,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_7234c5c6 === 'function') {
-    await nuxt_plugin_plugin_7234c5c6(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_nuxtswiperplugin_622602ba === 'function') {
-    await nuxt_plugin_nuxtswiperplugin_622602ba(app.context, inject)
+  if (typeof nuxt_plugin_elementui_7aa6cf5e === 'function') {
+    await nuxt_plugin_elementui_7aa6cf5e(app.context, inject)
   }
 
   // Lock enablePreview in context
